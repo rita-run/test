@@ -38,7 +38,7 @@ try:
     button4 = browser.find_element_by_css_selector("button.m-brand")
     button4.click()
     message1 = browser.find_element_by_css_selector("""[ng-bind="'common-form-error' | translate"]""")
-
+    #здесь еще нужно проверить, что чек-бокс отмечен красным, но я пока не до конца разобралась с тем, как найти элемент по цвету
 
 finally:
     time.sleep(5)
